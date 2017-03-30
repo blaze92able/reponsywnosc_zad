@@ -1,0 +1,85 @@
+@media (min-width: 1170px)
+{
+    #zdjecie
+    {
+        position: absolute;
+        background-image: url(../obrazy/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        
+    }
+    #podpis_1
+    {
+        position: relative;
+        top: 300px;
+        font-family:sans-serif;
+        font-size: x-large;
+        color: white;
+        margin-left: 50px;
+        
+    }
+    #obraz_2
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1170px)
+{
+    #zdjecie
+    {
+        position: absolute;
+        background-image: url(../obrazy/man-2.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        height: 70%;
+        width: 100%;
+        
+    }
+    #podpis_1
+    {
+        position: relative;
+        top: 100px;
+        font-family:sans-serif;
+        font-size: 150%;
+        color: white;
+        margin-right: 50px;
+        float: right;
+        
+    }
+}
+
+@media (max-width: 992px)
+{
+    #zdjecie
+    {
+        position: absolute;
+        background-image: url(../obrazy/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        width: 100%;
+        
+    }
+    #podpis_1
+    {
+        position: relative;
+        top: 400px;
+        font-family:sans-serif;
+        font-size: 200%;
+        color: black;
+        margin-right: 50px;
+        text-align: center;
+        font-weight: 400;
+        
+    }
+}
+
